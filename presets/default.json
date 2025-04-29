@@ -1,21 +1,21 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "Juggernaut-X-RunDiffusion-NSFW.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
-            true,
+            false,
             "sd_xl_offset_example-lora_1.0.safetensors",
             0.1
         ],
         [
             true,
-            "None",
+            "Pussy_Lily_v5_XL.safetensors",
             1.0
         ],
         [
             true,
-            "None",
+            "NsfwPovAllInOneLoraSdxl-000009.safetensors",
             1.0
         ],
         [
@@ -44,11 +44,12 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
+        "Juggernaut-X-RunDiffusion-NSFW.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-X-v10/resolve/main/Juggernaut-X-RunDiffusion-NSFW.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors",
+        "NsfwPovAllInOneLoraSdxl-000009.safetensors": "https://huggingface.co/bulagbu/new-3/resolve/main/NsfwPovAllInOneLoraSdxl-000009.safetensors"
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
