@@ -44,13 +44,34 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "babesByStableYogi_xlV3.safetensors": "https://huggingface.co/aegonsnowout/ModelsXL/resolve/main/babesByStableYogi_xlV3.safetensors"
+        "babesByStableYogi_xlV3.safetensors": "https://huggingface.co/aegonsnowout/ModelsXL/resolve/main/babesByStableYogi_xlV3.safetensors",
+        "FFusionXL-BASE-v1-vae.safetensors": "https://huggingface.co/FFusion/FFusionXL-BASE/resolve/main/FFusionXL-BASE-v1-vae.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {
         "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors",
-        "NsfwPovAllInOneLoraSdxl-000009.safetensors": "https://huggingface.co/bulagbu/new-3/resolve/main/NsfwPovAllInOneLoraSdxl-000009.safetensors"
-    },
+        "NsfwPovAllInOneLoraSdxl-000009.safetensors": "https://huggingface.co/bulagbu/new-3/resolve/main/NsfwPovAllInOneLoraSdxl-000009.safetensors",
+        "FF.66.hassakuSfwNsfwAlphav_alphaV02.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.66.hassakuSfwNsfwAlphav_alphaV02.lora.safetensors",
+        "FF.67.galaxytimemachinesGTM_xlplusV10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.67.galaxytimemachinesGTM_xlplusV10.lora.safetensors",
+        "FF.68.furtasticxl_BetaEPOCHS3.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.68.furtasticxl_BetaEPOCHS3.lora.safetensors",
+        "FF.69.formulaxlXLComfyui_v20Pruned.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.69.formulaxlXLComfyui_v20Pruned.lora.safetensors",
+        "FF.70.FinalAnimeCG_mk2a2.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.70.FinalAnimeCG_mk2a2.lora.safetensors",
+        "FF.71.explicitFreedomNSFW_beta.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.71.explicitFreedomNSFW_beta.lora.safetensors",
+        "FF.72.endjourneyXL_v11.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.72.endjourneyXL_v11.lora.safetensors",
+        "FF.73.dreamshaperXL10_alpha2Xl10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.73.dreamshaperXL10_alpha2Xl10.lora.safetensors",
+        "FF.74.copaxTimelessxlSDXL1_v5.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.74.copaxTimelessxlSDXL1_v5.lora.safetensors",
+        "FF.75.cinemaxAlphaSDXLCinema_alpha1.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.75.cinemaxAlphaSDXLCinema_alpha1.lora.safetensors",
+        "FF.76.brixlAMustInYour_v20Banu.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.76.brixlAMustInYour_v20Banu.lora.safetensors",
+        "FF.77.animeChangefulXL_v10ReleasedCandidate.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.77.animeChangefulXL_v10ReleasedCandidate.lora.safetensors",
+        "FF.81.sdxlYamersRealism_version2.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.81.sdxlYamersRealism_version2.lora.safetensors",
+        "FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors",
+        "FF.86.realvisxlV10_v10VAE.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.86.realvisxlV10_v10VAE.safetensors",
+        "FF.87.RealitiesEdgeXLANIME_20.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.87.RealitiesEdgeXLANIME_20.lora.safetensors",
+        "FF.89.realisticStockPhoto_v10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.89.realisticStockPhoto_v10.lora.safetensors",
+        "FF.90.realisticFreedomSFW_alpha.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.90.realisticFreedomSFW_alpha.lora.safetensors",
+        "FF.93.pyrosNSFWSDXL_v013e6.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.93.pyrosNSFWSDXL_v013e6.lora.safetensors",
+        "FF.94.nightvisionXLPhotorealisticPortrait_v0743ReleaseBakedvae.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.94.nightvisionXLPhotorealisticPortrait_v0743ReleaseBakedvae.lora.safetensors"
+    ],
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
