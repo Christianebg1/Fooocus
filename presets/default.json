@@ -74,7 +74,7 @@
         "flux-lora-uncensored-000004.safetensors": "https://huggingface.co/anthienlong/prashanth970-uncensored/resolve/main/flux-lora-uncensored-000004.safetensors",
         "flux-lora-uncensored.safetensors": "https://huggingface.co/anthienlong/prashanth970-uncensored/resolve/main/flux-lora-uncensored.safetensors",
         "flux_lustly-ai_v1.safetensors": "https://huggingface.co/lustlyai/Flux_Lustly.ai_Uncensored_nsfw_v1/resolve/main/flux_lustly-ai_v1.safetensors"
-    ],
+    
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
         "juggernautXL_version7Rundiffusion.safetensors",
