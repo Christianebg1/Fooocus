@@ -50,8 +50,8 @@
     },
     "embeddings_downloads": {},
     "lora_downloads": {
-        "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors",
-        "NsfwPovAllInOneLoraSdxl-000009.safetensors": "https://huggingface.co/bulagbu/new-3/resolve/main/NsfwPovAllInOneLoraSdxl-000009.safetensors"
+        "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors"
+        
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
