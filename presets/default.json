@@ -1,5 +1,3 @@
-
-
 {
     "default_model": "babesByStableYogi_xlV3.safetensors",
     "default_refiner": "None",
@@ -45,13 +43,11 @@
     ],
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
-    "checkpoint_downloads": {
-        "babesByStableYogi_xlV3.safetensors": "https://huggingface.co/aegonsnowout/ModelsXL/resolve/main/babesByStableYogi_xlV3.safetensors"
-    },
+    "checkpoint_downloads": {},
     "embeddings_downloads": {},
     "lora_downloads": {
         "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors"
-        
+
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
