@@ -1,17 +1,19 @@
+
+
 {
-    "default_model": "FFusionXL-BASE-v1-vae.safetensors",
+    "default_model": "babesByStableYogi_xlV3.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "None",
-            1.0
+            "FF.90.realisticFreedomSFW_alpha.lora.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "Pussy_Lily_v5_XL.safetensors",
+            0.5
         ],
         [
             true,
@@ -29,32 +31,33 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 6.0,
+    "default_cfg_scale": 4.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Semi Realistic",
-        "Fooocus Masterpiece"
+        "Fooocus Enhance",
+        "Fooocus Sharp"
     ],
-    "default_aspect_ratio": "896*1152",
+    "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "animaPencilXL_v500.safetensors": "https://huggingface.co/FFusion/FFusionXL-BASE/resolve/main/FFusionXL-BASE-v1-vae.safetensors"
+        "babesByStableYogi_xlV3.safetensors": "https://huggingface.co/aegonsnowout/ModelsXL/resolve/main/babesByStableYogi_xlV3.safetensors"
     },
     "embeddings_downloads": {},
-    "lora_downloads": {},
+    "lora_downloads": {
+        "Pussy_Lily_v5_XL.safetensors": "https://huggingface.co/datasets/tomo2chin2/MyLoRA/resolve/ebef987075fd52fd549949fe0f0d0ddab4c60a7e/Pussy_Lily_v5_XL.safetensors"
+        
+    },
     "previous_default_models": [
-        "animaPencilXL_v400.safetensors",
-        "animaPencilXL_v310.safetensors",
-        "animaPencilXL_v300.safetensors",
-        "animaPencilXL_v260.safetensors",
-        "animaPencilXL_v210.safetensors",
-        "animaPencilXL_v200.safetensors",
-        "animaPencilXL_v100.safetensors"
+        "juggernautXL_version8Rundiffusion.safetensors",
+        "juggernautXL_version7Rundiffusion.safetensors",
+        "juggernautXL_v7Rundiffusion.safetensors",
+        "juggernautXL_version6Rundiffusion.safetensors",
+        "juggernautXL_v6Rundiffusion.safetensors"
     ]
 }
