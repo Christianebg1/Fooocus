@@ -1,18 +1,18 @@
 
 
 {
-    "default_model": "babesByStableYogi_xlV3.safetensors",
+    "default_model": "CyberRealisticPony_V9.0a_FP16.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "FF.90.realisticFreedomSFW_alpha.lora.safetensors",
+            "None",
             0.5
         ],
         [
             true,
-            "Pussy_Lily_v5_XL.safetensors",
+            "None",
             0.5
         ],
         [
@@ -37,7 +37,7 @@
     "default_scheduler": "karras",
     "default_performance": "Speed",
     "default_prompt": "",
-    "default_prompt_negative": "unrealistic, saturated, high contrast, big nose, painting, drawing, sketch, cartoon, anime, manga, render, CG, 3d, watermark, signature, label",
+    "default_prompt_negative": "cartoon, illustration, anime, painting, CGI, 3D render, low quality, watermark, logo, label",
     "default_styles": [
         "Fooocus V2",
         "Fooocus Enhance",
@@ -46,7 +46,8 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "babesByStableYogi_xlV3.safetensors": "https://huggingface.co/aegonsnowout/ModelsXL/resolve/main/babesByStableYogi_xlV3.safetensors"
+        "CyberRealisticPony_V9.0a_FP16.safetensors":"https://huggingface.co/cyberdelia/CyberRealisticPony/resolve/main/CyberRealisticPony_V9.0a_FP16.safetensors"
+        
     },
     "embeddings_downloads": {},
     "lora_downloads": {
