@@ -1,5 +1,3 @@
-
-
 {
     "default_model": "CyberRealisticXLPlay_V5.6.safetensors",
     "default_refiner": "None",
@@ -48,12 +46,30 @@
     "default_aspect_ratio": "832*1216",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-       
-        
+        "CyberRealisticXLPlay_V5.6.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V5.6.safetensors"
     },
-    "embeddings_downloads": {},
+    "embeddings_downloads": {
+        "Stable_Yogis_PDXL_Positives.safetensors": "https://huggingface.co/casque/Stable_Yogis_PDXL_Positives/resolve/main/Stable_Yogis_PDXL_Positives.safetensors",
+        "Stable_Yogis_PDXL_Negatives-neg.safetensors": "https://huggingface.co/casque/Stable_Yogis_PDXL_Negatives-neg/resolve/main/Stable_Yogis_PDXL_Negatives-neg.safetensors",
+        "CyberRealistic_Negative_PONY.safetensors": "https://huggingface.co/cyberdelia/CyberRealistic_Negative/resolve/main/CyberRealistic_Negative_PONY.safetensors",
+        "CyberRealistic_Negative_New_SDXL.safetensors": "https://huggingface.co/cyberdelia/CyberRealistic_Negative/resolve/main/CyberRealistic_Negative_New_SDXL.safetensors"
+    },
     "lora_downloads": {
-        
+        "Sexy School Uniform By Stable Yogi.safetensors": "https://huggingface.co/casque/Sexy_School_Uniform_By_Stable_Yogi/resolve/main/Sexy%20School%20Uniform%20By%20Stable%20Yogi.safetensors",
+        "ArielPonyXL_character-10.safetensors": "https://huggingface.co/casque/ArielPonyXL_character-10/resolve/main/ArielPonyXL_character-10.safetensors",
+        "JasminePonyXL_character-10.safetensors": "https://huggingface.co/casque/JasminePonyXL_character-10/resolve/main/JasminePonyXL_character-10.safetensors",
+        "FF.86.realvisxlV10_v10VAE.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.86.realvisxlV10_v10VAE.lora.safetensors",
+        "FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors",
+        "FF.81.sdxlYamersRealism_version2.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.81.sdxlYamersRealism_version2.lora.safetensors",
+        "FF.93.pyrosNSFWSDXL_v013e6.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.93.pyrosNSFWSDXL_v013e6.lora.safetensors",
+        "FF.90.realisticFreedomSFW_alpha.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.90.realisticFreedomSFW_alpha.lora.safetensors",
+        "FF.89.realisticStockPhoto_v10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.89.realisticStockPhoto_v10.lora.safetensors",
+        "FF.87.RealitiesEdgeXLANIME_20.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.87.RealitiesEdgeXLANIME_20.lora.safetensors",
+        "FF.77.animeChangefulXL_v10ReleasedCandidate.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.77.animeChangefulXL_v10ReleasedCandidate.lora.safetensors",
+        "FF.76.brixlAMustInYour_v20Banu.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.76.brixlAMustInYour_v20Banu.lora.safetensors",
+        "FF.75.cinemaxAlphaSDXLCinema_alpha1.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.75.cinemaxAlphaSDXLCinema_alpha1.lora.safetensors",
+        "FF.74.copaxTimelessxlSDXL1_v5.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.74.copaxTimelessxlSDXL1_v5.lora.safetensors",
+        "FF.73.dreamshaperXL10_alpha2Xl10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.73.dreamshaperXL10_alpha2Xl10.lora.safetensors"
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
@@ -63,3 +79,4 @@
         "juggernautXL_v6Rundiffusion.safetensors"
     ]
 }
+
