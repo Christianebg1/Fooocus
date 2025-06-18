@@ -1,5 +1,5 @@
 {
-    "default_model": "CyberRealisticXLPlay_V5.6.safetensors",
+    "default_model": "bigaspV1_v10.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -46,8 +46,7 @@
     "default_aspect_ratio": "832*1216",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "CyberRealisticXLPlay_V5.6.safetensors": "https://civitai.com/api/download/models/444734",
-        "bigaspV1_v10.safetensors": "https://huggingface.co/AgentMarlboro/bigASPv1/resolve/main/bigaspV1_v10.safetensors"
+               "bigaspV1_v10.safetensors": "https://huggingface.co/AgentMarlboro/bigASPv1/resolve/main/bigaspV1_v10.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
