@@ -45,7 +45,10 @@
     ],
     "default_aspect_ratio": "832*1216",
     "default_overwrite_step": -1,
-    "checkpoint_downloads": {},
+    "checkpoint_downloads": {
+        "CyberRealisticXLPlay_V5.6.safetensors": "https://civitai.com/api/download/models/444734",
+        "bigaspV1_v10.safetensors": "https://huggingface.co/AgentMarlboro/bigASPv1/resolve/main/bigaspV1_v10.safetensors"
+    },
     "embeddings_downloads": {},
     "lora_downloads": {},
     "previous_default_models": [
