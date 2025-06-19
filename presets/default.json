@@ -1,5 +1,5 @@
 {
-    "default_model": "bigaspV1_v10.safetensors",
+    "default_model": "Juggernaut-XI-byRunDiffusion.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -46,7 +46,7 @@
     "default_aspect_ratio": "832*1216",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-               "bigaspV1_v10.safetensors": "https://huggingface.co/AgentMarlboro/bigASPv1/resolve/main/bigaspV1_v10.safetensors"
+               "Juggernaut-XI-byRunDiffusion.safetensors": "https://huggingface.co/RunDiffusion/Juggernaut-XI-v11/resolve/main/Juggernaut-XI-byRunDiffusion.safetensors"
     },
     "embeddings_downloads": {},
     "lora_downloads": {},
