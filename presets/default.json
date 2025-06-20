@@ -1,5 +1,5 @@
 {
-    "default_model": "CyberRealisticXLPlay_V5.8.safetensors",
+    "default_model": "CyberRealisticXLPlay_V5.6.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
@@ -44,7 +44,8 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "CyberRealisticXLPlay_V5.8.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V5.8.safetensors"
+        "CyberRealisticXLPlay_V5.6.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V5.6.safetensors",
+        "CyberRealisticXLPlay_V4.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V4.safetensors",
     },
     "embeddings_downloads": {},
     "lora_downloads": {
