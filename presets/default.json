@@ -44,7 +44,7 @@
     "default_aspect_ratio": "1152*896",
     "default_overwrite_step": -1,
     "checkpoint_downloads": {
-        "CyberRealisticXLPlay_V5.6.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V5.6.safetensors",
+        "CyberRealisticXLPlay_V5.6.safetensors": "https://huggingface.co/cyberdelia/CyberRealisticXL/resolve/main/CyberRealisticXLPlay_V5.6.safetensors"
       },
     "embeddings_downloads": {},
     "lora_downloads": {
