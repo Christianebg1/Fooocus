@@ -62,7 +62,6 @@
         "FF.86.realvisxlV10_v10VAE.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.86.realvisxlV10_v10VAE.lora.safetensors",
         "FF.87.RealitiesEdgeXLANIME_20.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.87.RealitiesEdgeXLANIME_20.lora.safetensors",
         "FF.89.realisticStockPhoto_v10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.89.realisticStockPhoto_v10.lora.safetensors"
-        
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
