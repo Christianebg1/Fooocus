@@ -61,8 +61,8 @@
         "FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.82.sdxlUnstableDiffusers_v6StabilityEater.lora.safetensors",
         "FF.86.realvisxlV10_v10VAE.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.86.realvisxlV10_v10VAE.lora.safetensors",
         "FF.87.RealitiesEdgeXLANIME_20.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.87.RealitiesEdgeXLANIME_20.lora.safetensors",
-        "FF.89.realisticStockPhoto_v10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.89.realisticStockPhoto_v10.lora.safetensors",
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
+        "FF.89.realisticStockPhoto_v10.lora.safetensors": "https://huggingface.co/FFusion/400GB-LoraXL/resolve/main/FF.89.realisticStockPhoto_v10.lora.safetensors"
+        
     },
     "previous_default_models": [
         "juggernautXL_version8Rundiffusion.safetensors",
