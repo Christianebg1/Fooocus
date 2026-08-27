@@ -29,6 +29,15 @@ if not hasattr(modeling_utils, 'no_init_weights'):
         modeling_utils.no_init_weights = contextlib.nullcontext
 
 
+def get_text_model(transformer):
+    if hasattr(transformer, 'text_model'):
+        return transformer.text_model
+    if hasattr(transformer, 'model'):
+        return transformer.model
+    return transformer
+
+
+
 
 def patched_encode_token_weights(self, token_weight_pairs):
     to_encode = list()
@@ -93,7 +102,14 @@ def patched_SDClipModel__init__(self, max_length=77, freeze=True, layer="last", 
     if dtype is not None:
         self.transformer.to(dtype)
 
-    self.transformer.text_model.embeddings.to(torch.float32)
+    tm = get_text_model(self.transformer)
+    if hasattr(tm, 'embeddings'):
+        tm.embeddings.to(torch.float32)
+    elif hasattr(self.transformer, 'get_input_embeddings'):
+        try:
+            self.transformer.get_input_embeddings().to(torch.float32)
+        except Exception:
+            pass
 
     if freeze:
         self.freeze()
@@ -141,7 +157,12 @@ def patched_SDClipModel_forward(self, tokens):
     else:
         z = outputs.hidden_states[self.layer_idx]
         if self.layer_norm_hidden_state:
-            z = self.transformer.text_model.final_layer_norm(z)
+            tm = get_text_model(self.transformer)
+            if hasattr(tm, 'final_layer_norm'):
+                z = tm.final_layer_norm(z)
+            elif hasattr(self.transformer, 'final_layer_norm'):
+                z = self.transformer.final_layer_norm(z)
+
 
     if hasattr(outputs, "pooler_output"):
         pooled_output = outputs.pooler_output.float()
