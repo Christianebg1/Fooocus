@@ -10,22 +10,22 @@
         ],
         [
             true,
-            "XL_Realism_Slider_V_1.safetensors",
+            "ILXL_Realism_Slider_V.1.safetensors",
             0.7
         ],
         [
             true,
-            "the_body.safetensors",
+            "The_Body.safetensors",
             0.5
         ],
         [
             true,
-            "2-Detail-Slider.safetensors",
+            "Z-Detail-Slider.safetensors",
             0.5
         ],
         [
             true,
-            "2-Light-Slider.safetensors",
+            "Z-Light-Slider.safetensors",
             0.5
         ]
     ],
