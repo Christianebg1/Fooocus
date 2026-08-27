@@ -1,60 +1,50 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "CyberRealisticXLPlay_V5_FP16.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
+            "add-detail-xl.safetensors",
+            0.6
         ],
         [
             true,
-            "None",
-            1.0
+            "XL_Realism_Slider_V_1.safetensors",
+            0.7
         ],
         [
             true,
-            "None",
-            1.0
+            "the_body.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "2-Detail-Slider.safetensors",
+            0.5
         ],
         [
             true,
-            "None",
-            1.0
+            "2-Light-Slider.safetensors",
+            0.5
         ]
     ],
-    "default_cfg_scale": 4.0,
+    "default_cfg_scale": 3.5,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
     "default_performance": "Speed",
-    "default_prompt": "",
-    "default_prompt_negative": "",
+    "default_prompt": "masterpiece, ultra-detailed 8k photo, highly detailed skin textures, realistic lighting, raw photography, subsurface scattering, dslr",
+    "default_prompt_negative": "unrealistic, 3d render, cartoon, anime, illustration, painting, drawing, bad anatomy, deformed fingers, extra limbs, blurry, low quality, oversaturated, text, watermark, signature",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Photograph",
+        "Fooocus Negative"
     ],
-    "default_aspect_ratio": "1152*896",
-    "default_overwrite_step": -1,
-    "checkpoint_downloads": {
-        "juggernautXL_v8Rundiffusion.safetensors": "https://huggingface.co/lllyasviel/fav_models/resolve/main/fav/juggernautXL_v8Rundiffusion.safetensors"
-    },
+    "default_aspect_ratio": "896*1152",
+    "default_black_out_nsfw": false,
+    "checkpoint_downloads": {},
     "embeddings_downloads": {},
-    "lora_downloads": {
-        "sd_xl_offset_example-lora_1.0.safetensors": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_offset_example-lora_1.0.safetensors"
-    },
-    "previous_default_models": [
-        "juggernautXL_version8Rundiffusion.safetensors",
-        "juggernautXL_version7Rundiffusion.safetensors",
-        "juggernautXL_v7Rundiffusion.safetensors",
-        "juggernautXL_version6Rundiffusion.safetensors",
-        "juggernautXL_v6Rundiffusion.safetensors"
-    ]
+    "lora_downloads": {},
+    "previous_default_models": []
 }
