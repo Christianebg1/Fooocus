@@ -1,4 +1,5 @@
-from typing import Tuple, List
+from __future__ import annotations
+from typing import Tuple, List, Any
 
 import ldm_patched.modules.model_management as model_management
 from ldm_patched.modules.model_patcher import ModelPatcher
@@ -34,7 +35,7 @@ class GroundingDinoModel(Model):
             caption: str,
             box_threshold: float = 0.35,
             text_threshold: float = 0.25
-    ) -> Tuple[sv.Detections, torch.Tensor, torch.Tensor, List[str]]:
+    ) -> Tuple[Any, torch.Tensor, torch.Tensor, List[str]]:
         if self.model is None:
             filename = load_file_from_url(
                 url="https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha/groundingdino_swint_ogc.pth",
