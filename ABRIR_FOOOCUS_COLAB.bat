@@ -17,7 +17,7 @@ echo  3. Al finalizar, haz clic en el enlace azul "gradio.live" que aparecerá.
 echo.
 echo ======================================================================
 
-start https://colab.research.google.com/github/Christianebg1/Fooocus/blob/main/Fooocus_Colab.ipynb
+start https://colab.research.google.com/github/Christianebg1/Fooocus/blob/main/fooocus_colab.ipynb
 
 echo.
 echo Presiona cualquier tecla para cerrar esta ventana...
