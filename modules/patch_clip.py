@@ -20,6 +20,14 @@ import ldm_patched.modules.ops as ops
 
 from modules.ops import use_patched_ops
 from transformers import CLIPTextModel, CLIPTextConfig, modeling_utils, CLIPVisionConfig, CLIPVisionModelWithProjection
+import contextlib
+
+if not hasattr(modeling_utils, 'no_init_weights'):
+    if hasattr(modeling_utils, '_no_init_weights'):
+        modeling_utils.no_init_weights = modeling_utils._no_init_weights
+    else:
+        modeling_utils.no_init_weights = contextlib.nullcontext
+
 
 
 def patched_encode_token_weights(self, token_weight_pairs):
