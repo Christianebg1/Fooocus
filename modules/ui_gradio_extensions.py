@@ -58,10 +58,24 @@ def reload_javascript():
     css = css_html()
 
     def template_response(*args, **kwargs):
-        res = GradioTemplateResponseOriginal(*args, **kwargs)
+        if len(args) >= 2 and isinstance(args[0], str) and isinstance(args[1], dict):
+            name = args[0]
+            context = args[1]
+            req = context.get("request")
+            if req is not None:
+                try:
+                    res = GradioTemplateResponseOriginal(req, name, context, **kwargs)
+                except TypeError:
+                    res = GradioTemplateResponseOriginal(*args, **kwargs)
+            else:
+                res = GradioTemplateResponseOriginal(*args, **kwargs)
+        else:
+            res = GradioTemplateResponseOriginal(*args, **kwargs)
+
         res.body = res.body.replace(b'</head>', f'{js}</head>'.encode("utf8"))
         res.body = res.body.replace(b'</body>', f'{css}</body>'.encode("utf8"))
         res.init_headers()
         return res
 
     gr.routes.templates.TemplateResponse = template_response
+
