@@ -2,7 +2,7 @@
     {
         "name": "cinematic-diva",
         "prompt": "UHD, 8K, ultra detailed, a cinematic photograph of {prompt}, beautiful lighting, great composition",
-        "negative_prompt": "ugly, deformed, noisy, blurry, NSFW"
+        "negative_prompt": "ugly, deformed, noisy, blurry"
     },
     {
         "name": "Abstract Expressionism",
