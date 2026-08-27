@@ -5,9 +5,18 @@ import numpy as np
 import torch
 from extras.GroundingDINO.util.inference import default_groundingdino
 from extras.sam.predictor import SamPredictor
-from rembg import remove, new_session
-from segment_anything import sam_model_registry
-from segment_anything.utils.amg import remove_small_regions
+
+try:
+    from rembg import remove, new_session
+except Exception:
+    remove = new_session = None
+
+try:
+    from segment_anything import sam_model_registry
+    from segment_anything.utils.amg import remove_small_regions
+except Exception:
+    sam_model_registry = remove_small_regions = None
+
 
 
 class SAMOptions:
