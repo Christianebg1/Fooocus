@@ -1,5 +1,5 @@
 {
-    "default_model": "CyberRealisticXLPlay_V5_FP16.safetensors",
+    "default_model": "CyberRealisticPony_v6.5_FP16.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
