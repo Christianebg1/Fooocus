@@ -4,7 +4,7 @@ title Iniciar Fooocus en Google Colab
 color 0B
 cls
 echo ======================================================================
-echo          🚀 LANZADOR DE FOOOCUS ULTRA-REALISTA EN GOOGLE COLAB
+echo          🚀 LANZADOR DE FOOOCUS STUDIO EN GOOGLE COLAB
 echo ======================================================================
 echo.
 echo  Abriendo Google Colab en tu navegador predeterminado...
